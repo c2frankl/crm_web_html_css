@@ -1,39 +1,33 @@
 <!DOCTYPE html>
-<html> 
+<html lang="en"> 
   <head>
-      <style type="text/css">
-      <!--
-      body { 
-      background-image: url(http://defwalls.com/wallpapers-n/outer-space-futuristic-retro-astronauts-_136335-50.jpg); 
-      background-repeat: no-repeat; 
-      }
-      -->
-      </style>
     <meta charset="UTF-8">
-    <title style="color: red;"> Crazy Craig's Mad CRM! </title>
+    <title> Crazy Craig's Mad CRM! </title>
     <meta name="og:title" content="Craig's CRM">
+     <link rel="stylesheet" type="text/css" href="/styles.css">
+     <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
-    <%= yield %>
-    <article> 
-      <h1 style="color: red;">Ye Olde CRM</h1>
-        <p style="color: red;">
-          Welcome paranoid android.
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/contacts">Contacts</li>
+          <li><a href="contacts/new">New Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Ye Olde CRM</h1>
+        <p>
+          Welcome paranoid android.<br>
           To Craig's CRM.
         </p>
-      <h2 style="color: red;">Further Down the Rabbit Hole...</h2>
-        <p style="color: red">
-        Contents evaporating before your eyes.
+      <h2>Further Down the Rabbit Hole...</h2>
+        <p>
+        Drowning in pastels of cyan and wine.
         </p>
-    </article>
-    <footer style="color: red;">8-Bit Einstein Production &copy;</footer>
+      <header>
+      <%= yield %>
+    <footer>8-Bit Einstein Production &copy;</footer>
   </body>
 </html>
 
