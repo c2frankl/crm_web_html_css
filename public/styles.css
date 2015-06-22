@@ -1,12 +1,12 @@
 .index {
    line-height: 1.5;
-   background: url(http://www.nerdcoremovement.com/wp-content/uploads/2015/02/nycc-spider-gwen-gets-an-ongoing-series_xa4p.1920.jpg) no-repeat;
+   background: url() no-repeat;
    position: fixed;
    background-size: 100% 100%;
-   margin: 0;
+   margin: 30;
    background-color: none;
-   height: 75%;
-   width: 90%;
+   height: 100%;
+   width: 100%;
  }
 
 .welcome{
@@ -61,10 +61,10 @@ body{
 h1 {
   font-family:'Press Start 2P', cursive;
   font-size: 24px;
+  text-align: center;
 }
 
-h2 {
-  font-family:'Press Start 2P', cursive;
-  font-size: 24px;
+p {
+  text-align: left;
+  margin: 50px;
 }
-
